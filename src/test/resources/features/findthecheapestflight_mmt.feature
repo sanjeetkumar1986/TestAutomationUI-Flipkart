@@ -22,4 +22,4 @@ Feature: Search Flights and Retrieve Cheapest Flight Details on MakeMyTrip
 
     Examples:
       | trip_type | source_city      | destination_city | travel_date     |
-      | One Way   | New Delhi, India | Mumbai, India    | Tue Sep 15 2026 |
+      | One Way   | New Delhi, India | Mumbai, India    | Tue Sep 22 2026 |

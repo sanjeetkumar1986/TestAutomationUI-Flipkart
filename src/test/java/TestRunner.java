@@ -10,7 +10,7 @@ import static io.cucumber.junit.platform.engine.Constants.FILTER_TAGS_PROPERTY_N
 @Suite
 @IncludeEngines("cucumber")
 @SelectClasspathResource("features") // Locates feature files under src/test/resources/features
-@ConfigurationParameter(key = GLUE_PROPERTY_NAME, value = "steps, utility")
+@ConfigurationParameter(key = GLUE_PROPERTY_NAME, value = "steps,utility")
 @ConfigurationParameter(key = PLUGIN_PROPERTY_NAME, value = "pretty, json:target/jsonReports/cucumber-report.json,io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm")
 // Optional: Uncomment below line to run specific Cucumber tags (e.g., @smoke)
 // @ConfigurationParameter(key = FILTER_TAGS_PROPERTY_NAME, value = "@smoke")

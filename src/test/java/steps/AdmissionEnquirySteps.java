@@ -7,7 +7,7 @@ import pages.EnquirePage;
 
 import java.util.Map;
 
-public class AdmissionSteps {
+public class AdmissionEnquirySteps {
     private final String EXCEL_PATH = "E://Automation//HCL//AmazonProject//Flipkart-Automation//src//test//resources//Data//QA_University.xlsx";
     CommonPage commonPage=new CommonPage();
     EnquirePage enquirePage=new EnquirePage();
@@ -26,18 +26,22 @@ public class AdmissionSteps {
         String state = data.get("State");
         String city = data.get("city");
         String contact = data.get("contact");
+
         enquirePage.enter_full_name(name);
         enquirePage.enter_email(email);
         enquirePage.select_school(school);
         enquirePage.select_course(course);
-        enquirePage.select_city(city);
         enquirePage.select_state(state);
+        enquirePage.select_city(city);
         enquirePage.enter_contact_number(contact);
+
+
 
 
     }
     @Then("the enquiry form should be submitted successfully")
     public void the_enquiry_form_should_be_submitted_successfully() {
+        System.out.println("Sanjeet");
 
     }
 

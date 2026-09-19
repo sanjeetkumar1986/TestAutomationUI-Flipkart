@@ -10,7 +10,7 @@ Feature: Search Functionality on Flipkart
     And navigates to the Flipkart homepage
     And closes any login popup if displayed
 
-  @Smoke @Regression
+  @Smoke @Regression @mobile
   Scenario Outline: Search for various Samsung mobile models and verify search results
     When the user enters "<search_keyword>" into the search bar
     And clicks on the search button
@@ -21,6 +21,6 @@ Feature: Search Functionality on Flipkart
     Examples:
       | search_keyword        | expected_title  | expected_brand |
       | Samsung Galaxy S24    | Samsung         | Samsung        |
-      | Samsung Galaxy M34    | My way         | Samsung        |
+      | Samsung Galaxy M34    | Samsung         | Samsung        |
 #      | Samsung Galaxy Z Fold | Samsung         | Samsung        |
 #      | Samsung 5G Mobile     | Samsung         | Samsung        |
