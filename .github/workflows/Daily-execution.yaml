@@ -2,7 +2,7 @@ name: Flipkart Automation Daily Execution Pipeline
 on:
   schedule:
     # Runs daily at 8:30 PM IST (15:00 UTC)
-    - cron: '0 15 * * *'
+    - cron: '10 17 * * *'
   push:
     branches: [ "main", "master" ]
   pull_request:
