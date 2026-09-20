@@ -5,3 +5,5 @@
 *.java text diff=java
 *.xml text
 *.md text
+*.yaml text eol=lf
+*.yml text eol=lf
