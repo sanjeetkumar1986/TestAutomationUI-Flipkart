@@ -34,7 +34,7 @@ public class BrowserDriver {
                     default:
                         ChromeOptions chromeOptions = new ChromeOptions();
                         chromeOptions.addArguments("--remote-allow-origins=*");
-                     //   chromeOptions.addArguments("--headless");
+                        chromeOptions.addArguments("--headless");
                         chromeOptions.addArguments("--no-sandbox");
                         chromeOptions.addArguments("--disable-dev-shm-usage");
                         driver.set(new ChromeDriver(chromeOptions));
