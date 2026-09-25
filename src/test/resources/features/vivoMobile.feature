@@ -21,4 +21,4 @@ Feature: Search Functionality on Flipkart
     Examples:
       | search_keyword      | expected_title | expected_brand |
       | vivo T5 Lite        | Vivo           | vivo           |
-      | vivo T5 Lite 44W 5G | vivo           | vivo           |
+      | vivo T5 Lite 44W 5G | Vivo           | vivo           |
