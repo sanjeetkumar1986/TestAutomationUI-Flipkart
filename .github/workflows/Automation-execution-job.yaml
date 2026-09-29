@@ -3,7 +3,7 @@ name: Automation Execution Pipeline
 on:
   schedule:
     # Runs daily at 10:50 PM IST (17:20 UTC)
-    - cron: '20 20 * * *'
+    - cron: '20 20 * * 5'
   push:
     branches: [ "main", "master" ]
   pull_request:
