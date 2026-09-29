@@ -1,13 +1,13 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue Sep 29 00:23:10 UTC 2026","Tue Sep 29 00:23:17 UTC 2026","7080","","Search Functionality on Flipkart","","Search for various Samsung mobile models and verify search results","","Search for various Samsung mobile models and verify search results","  As a Flipkart user
-  I want to search for Samsung mobile phones
-  So that I can view relevant products and their specifications"
-"passed","Tue Sep 29 00:23:26 UTC 2026","Tue Sep 29 00:23:31 UTC 2026","4806","","Search Functionality on Flipkart","","Search for various Vivo mobile models and verify search results","","Search for various Vivo mobile models and verify search results","  As a Flipkart user
+"passed","Tue Sep 29 02:43:02 UTC 2026","Tue Sep 29 02:43:07 UTC 2026","5718","","Search Functionality on Flipkart","","Search for various Vivo mobile models and verify search results","","Search for various Vivo mobile models and verify search results","  As a Flipkart user
   I want to search for Vivo mobile phones
   So that I can view relevant products and their specifications"
-"passed","Tue Sep 29 00:23:22 UTC 2026","Tue Sep 29 00:23:26 UTC 2026","4630","","Search Functionality on Flipkart","","Search for various Vivo mobile models and verify search results","","Search for various Vivo mobile models and verify search results","  As a Flipkart user
-  I want to search for Vivo mobile phones
-  So that I can view relevant products and their specifications"
-"passed","Tue Sep 29 00:23:17 UTC 2026","Tue Sep 29 00:23:22 UTC 2026","5017","","Search Functionality on Flipkart","","Search for various Samsung mobile models and verify search results","","Search for various Samsung mobile models and verify search results","  As a Flipkart user
+"passed","Tue Sep 29 02:42:57 UTC 2026","Tue Sep 29 02:43:02 UTC 2026","4664","","Search Functionality on Flipkart","","Search for various Samsung mobile models and verify search results","","Search for various Samsung mobile models and verify search results","  As a Flipkart user
   I want to search for Samsung mobile phones
+  So that I can view relevant products and their specifications"
+"passed","Tue Sep 29 02:42:43 UTC 2026","Tue Sep 29 02:42:57 UTC 2026","13930","","Search Functionality on Flipkart","","Search for various Samsung mobile models and verify search results","","Search for various Samsung mobile models and verify search results","  As a Flipkart user
+  I want to search for Samsung mobile phones
+  So that I can view relevant products and their specifications"
+"passed","Tue Sep 29 02:43:07 UTC 2026","Tue Sep 29 02:43:12 UTC 2026","4271","","Search Functionality on Flipkart","","Search for various Vivo mobile models and verify search results","","Search for various Vivo mobile models and verify search results","  As a Flipkart user
+  I want to search for Vivo mobile phones
   So that I can view relevant products and their specifications"
